@@ -12,8 +12,8 @@ pipeline {
   }
   environment {
     //these will be used throughout the Pipeline
-    DOCKER_HUB_USER = 'beedemo'
-    DOCKER_CREDENTIAL_ID = 'docker-hub-beedemo'
+    DOCKER_HUB_USER = 'ialhcvp'
+    DOCKER_CREDENTIAL_ID = 'f3527272-3205-45c6-870a-1f784feb420b'
     //will shorten sh step for frist two stages, but require stage level environment variables to override
     COMPOSE_FILE = 'docker-compose-test.yml'
   }
